@@ -57,6 +57,11 @@
             bindings = <&mkp MB3>;
             key-positions = <64 65>;
         };
+
+        MODORU {
+            bindings = <&mkp MB4>;
+            key-positions = <52 42>;
+        };
     };
 
     keymap {
