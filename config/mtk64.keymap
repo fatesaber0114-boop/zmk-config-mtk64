@@ -50,7 +50,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        NAKACLICK {
+            bindings = <&mkp MB3>;
+            key-positions = <64 65>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
