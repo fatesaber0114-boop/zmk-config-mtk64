@@ -50,24 +50,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        MB3 {
-            bindings = <&mkp MB3>;
-            key-positions = <64 65>;
-        };
-
-        MB4 {
-            bindings = <&mkp MB4>;
-            key-positions = <42 64>;
-        };
-
-        MB5 {
-            bindings = <&mkp MB5>;
-            key-positions = <43 65>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
