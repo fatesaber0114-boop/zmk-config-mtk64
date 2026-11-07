@@ -86,14 +86,18 @@
         layer_1 {
             display-name = "SNP";
             bindings = <
-&kp LC(X)  &kp LEFT_PARENTHESIS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &studio_unlock  &kp LC(C)  &kp RIGHT_PARENTHESIS  &kp KP_N4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &bt BT_CLR_ALL  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &kt LS(LG(P))  &scrl_inv_tog  &kp LC(V)  &kp PERCENT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &aml_tog  &kp LC(LA(V))  &kp COMMA  &write00  &kp KP_NUMBER_0  &kp PERIOD  &kp PLUS  &kp EQUAL  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &cpi_inc  &kp F7  &kp F10  &trans  &trans  &trans  &trans  &trans  &cpi_dec  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(X)  &kp LEFT_PARENTHESIS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &studio_unlock  &kp LC(C)  &kp RIGHT_PARENTHESIS  &kp KP_N4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp F8  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &kp LC(NUMBER_1)  &scrl_inv_tog  &kp LC(V)  &kp PERCENT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &aml_tog  &kp LC(LA(V))  &kp COMMA  &write00  &kp KP_NUMBER_0  &kp PERIOD  &kp PLUS  &kp EQUAL  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &bt BT_CLR_ALL  &cpi_inc  &kp F7  &kp F10  &trans  &trans  &trans  &trans  &trans  &cpi_dec  &kp F2  &kp F4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp UP_ARROW DOWN_ARROW>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         layer_2 {
             display-name = "MSE";
             bindings = <
-&kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp LG(LS(NUMBER_1))  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &kp LS(LEFT)  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &kp LS(RIGHT_ARROW)  &trans  &kp LG(LS(NUMBER_2))  &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans  &kp LG(LS(NUMBER_3))  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp EQUAL  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &kp LS(UP_ARROW)  &trans  &kp LS(LG(NUMBER_4))  &kp LEFT_GUI  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(E)  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp LG(LS(NUMBER_1))  &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS  &kp LS(LEFT)  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &kp LS(RIGHT_ARROW)  &kp F12  &kp LG(LS(NUMBER_2))  &kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &kp LG(LS(S))  &kp LG(LS(NUMBER_3))  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp EQUAL  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &kp LS(UP_ARROW)  &kp PRINTSCREEN  &kp LS(LG(NUMBER_4))  &kp LEFT_GUI  &trans  &trans  &trans  &trans  &kp LA(PRINTSCREEN)  &kp LG(PRINTSCREEN)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
