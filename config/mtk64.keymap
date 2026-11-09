@@ -75,7 +75,7 @@
         default_layer {
             display-name = "DEF";
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp EQUAL  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &mt ESC LANG2  &mt LEFT_ALT LANG1  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp BACKSLASH  &kp LCTRL  &kp LGUI  &lt 1 DEL  &lt (2) LG(TAB)  &lt 2 ENTER  &lt 1 BACKSPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LC(P)  &kp C_MUTE  &lt 3 SPACE  &lt 3 SPACE  &kp ENTER  &tog 2  &mkp LCLK  &mkp RCLK  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp GRAVE  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp EQUAL  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &mt ESC LANG2  &mt LEFT_ALT LANG1  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp BACKSLASH  &kp LCTRL  &kp LGUI  &lt 1 DEL  &lt (2) LG(TAB)  &lt 2 ENTER  &lt 1 BACKSPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LC(P)  &kp C_MUTE  &lt 3 SPACE  &lt 3 SPACE  &kp ENTER  &tog 2  &mkp MB1  &mkp MB2  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings =
@@ -86,7 +86,7 @@
         layer_1 {
             display-name = "SNP";
             bindings = <
-&kp LC(X)  &kp LEFT_PARENTHESIS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &studio_unlock  &kp LC(C)  &kp RIGHT_PARENTHESIS  &kp KP_N4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp F8  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &kp LC(NUMBER_1)  &scrl_inv_tog  &kp LC(V)  &kp PERCENT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &aml_tog  &kp LC(LA(V))  &kp COMMA  &write00  &kp KP_NUMBER_0  &kp PERIOD  &kp PLUS  &kp EQUAL  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &bt BT_CLR_ALL  &cpi_inc  &kp F7  &kp F10  &trans  &trans  &trans  &trans  &trans  &cpi_dec  &kp F2  &kp F4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(X)  &kp LEFT_PARENTHESIS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR_ALL  &kp LC(C)  &kp RIGHT_PARENTHESIS  &kp KP_N4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp F8  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &kp LC(NUMBER_1)  &scrl_inv_tog  &kp LC(V)  &kp PERCENT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &aml_tog  &kp LC(LA(V))  &kp COMMA  &write00  &kp KP_NUMBER_0  &kp PERIOD  &kp PLUS  &kp EQUAL  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &cpi_inc  &kp F7  &kp F10  &trans  &trans  &trans  &trans  &trans  &cpi_dec  &kp F2  &kp F4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
@@ -108,7 +108,7 @@
         layer_3 {
             display-name = "SCR";
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
